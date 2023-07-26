@@ -14,7 +14,7 @@
 		}
 
 		for (let i = 0; i < 100; i++) {
-			$array = [...$array, getRandomIntInRange(5, 500)];
+			$array = [...$array, getRandomIntInRange(1, 100)];
 		}
 	};
 

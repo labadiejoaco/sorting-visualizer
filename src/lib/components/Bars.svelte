@@ -47,6 +47,6 @@
 
 <div class="flex items-end justify-center space-x-1 h-full px-1">
 	{#each array as bar}
-		<div class="w-2 bg-blue-400" style={`height: ${bar}px`} />
+		<div class="w-2 bg-blue-400" style={`height: ${bar}%`} />
 	{/each}
 </div>
